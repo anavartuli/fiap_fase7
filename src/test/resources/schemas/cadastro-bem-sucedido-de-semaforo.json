@@ -1,0 +1,115 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1729370693.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "cdSemaforo",
+    "lgLogradouro",
+    "lgNumero",
+    "lgCidade",
+    "lgEstado",
+    "tmTempoVerde",
+    "tmTempoAmarelo",
+    "tmTempoVeremelho",
+    "dsUltimaAcao",
+    "dtUltimaAcao",
+    "tmUltimaAcao"
+  ],
+  "properties": {
+    "cdSemaforo": {
+      "$id": "#root/cdSemaforo",
+      "title": "Cdsemaforo",
+      "type": "integer",
+      "examples": [
+        5
+      ],
+      "default": 0
+    },
+    "lgLogradouro": {
+      "$id": "#root/lgLogradouro",
+      "title": "Lglogradouro",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Avenida da Pipoquinha"
+      ],
+      "pattern": "^.*$"
+    },
+    "lgNumero": {
+      "$id": "#root/lgNumero",
+      "title": "Lgnumero",
+      "type": "integer",
+      "examples": [
+        2598
+      ],
+      "default": 0
+    },
+    "lgCidade": {
+      "$id": "#root/lgCidade",
+      "title": "Lgcidade",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Sao Paulo"
+      ],
+      "pattern": "^.*$"
+    },
+    "lgEstado": {
+      "$id": "#root/lgEstado",
+      "title": "Lgestado",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Sao Paulo"
+      ],
+      "pattern": "^.*$"
+    },
+    "tmTempoVerde": {
+      "$id": "#root/tmTempoVerde",
+      "title": "Tmtempoverde",
+      "type": "integer",
+      "examples": [
+        120
+      ],
+      "default": 0
+    },
+    "tmTempoAmarelo": {
+      "$id": "#root/tmTempoAmarelo",
+      "title": "Tmtempoamarelo",
+      "type": "integer",
+      "examples": [
+        5
+      ],
+      "default": 0
+    },
+    "tmTempoVeremelho": {
+      "$id": "#root/tmTempoVeremelho",
+      "title": "Tmtempoveremelho",
+      "type": "integer",
+      "examples": [
+        60
+      ],
+      "default": 0
+    },
+    "dsUltimaAcao": {
+      "$id": "#root/dsUltimaAcao",
+      "title": "Dsultimaacao",
+      "type": "null",
+      "default": null
+    },
+    "dtUltimaAcao": {
+      "$id": "#root/dtUltimaAcao",
+      "title": "Dtultimaacao",
+      "type": "null",
+      "default": null
+    },
+    "tmUltimaAcao": {
+      "$id": "#root/tmUltimaAcao",
+      "title": "Tmultimaacao",
+      "type": "null",
+      "default": null
+    }
+  }
+}
